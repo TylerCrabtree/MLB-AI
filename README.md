@@ -24,6 +24,10 @@ Link: https://ai-mlb.netlify.app/
 
 ## 📕 Notes
 This website is for demo purposes and is intended as a proof of concept for an interview with the MLB. This product is not officially affilated with the MLB. 
-![MLB Logo](https://content.sportslogos.net/logos/4/490/full/1986.png)
+The website simulates AI with web scraping and parsing. Replacing actual responses with an trained AI model would be the intended endgoal of this application. 
+
+
+<img src="https://content.sportslogos.net/logos/4/490/full/1986.png" alt="MLB Logo" width="200"/>
+
 
 
