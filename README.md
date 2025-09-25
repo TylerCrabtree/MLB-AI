@@ -7,10 +7,10 @@ Link: https://ai-mlb.netlify.app/
 ---
 
 ## 🚀 Features
-- **Terminal UI** Fully usable chatbot 
+- **Chatbot UI** Fully usable chatbot. 
 - **MLB Stats** Quickly search MLB players & teams.
-- **Stat parsing** (ERA, strikeouts, batting avg, home runs, etc.)
-- **ASCII mirror** from your webcam, just for fun.
+- **Stat parsing** ERA, strikeouts, batting avg, home runs, etc.
+- **ASCII mirror**  Your webcam acts as a digitial mirror, just for fun.
 
 ---
 
