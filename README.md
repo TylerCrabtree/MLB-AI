@@ -2,7 +2,7 @@
 
 A futuristic **MLB Chatbot** for finding **MLB player key stats and summaries**. 
 
-![screenshot](assets/screenshot.png)
+Link: https://ai-mlb.netlify.app/
 
 ---
 
