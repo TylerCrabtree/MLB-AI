@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MLB AI Terminal</title>
+  <link rel="icon" href="https://www.favicon.cc/logo3d/20471.png" type="image/png" />
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+  <div class="overlay">
+    <div class="terminal">
+
+      <!-- Left Side Panel -->
+      <div class="side-panel left">
+        <div class="banner glitch" id="leftBannerText" data-text=""></div>
+      </div>
+
+      <!-- Core Terminal -->
+      <div class="core">
+        <!-- Terminal Header -->
+        <div class="term-top">
+          <div class="term-dot" id="termClose"></div>
+          <div class="term-title">MLB AI</div>
+        </div>
+
+        <!-- Terminal Body -->
+        <div class="term-body">
+          <div id="logContainer">
+            <pre id="mainLog"></pre>
+          </div>
+
+          <!-- Background ghost feed -->
+          <video id="ghostFeed" autoplay muted playsinline></video>
+
+          <!-- Status -->
+          <div class="status" id="termStatus">Idle</div>
+        </div>
+
+        <!-- ASCII Mirror -->
+        <div id="asciiMirror"></div>
+
+        <!-- Input -->
+        <div class="term-input">
+          <span class="prompt">YOU&gt;</span>
+          <input
+            type="text"
+            id="userInput"
+            placeholder="Ask about a player or team..."
+          />
+        </div>
+      </div>
+
+      <!-- Right Side Panel -->
+      <div class="side-panel right">
+        <div class="banner glitch" id="rightBannerText" data-text=""></div>
+      </div>
+
+    </div>
+  </div>
+
+<script>
+const termBody = document.querySelector('.term-body');
+const mainLogEl = document.getElementById('mainLog');
+function appendLog(message) {
+  const log = document.getElementById("mainLog");
+  const entry = document.createElement("div");
+  entry.textContent = message;
+  log.appendChild(entry);
+
+  const container = document.getElementById("logContainer");
+  container.scrollTop = container.scrollHeight;
+}
+</script>
+  <script src="scripts/input.js"></script>
+</body>
+</html>
